@@ -21,27 +21,28 @@ We want this dashboard to be interactive and can allow customers make a right ch
     
     
 
-4.  **TOP 7 HOTELS IN IKEJA BASED ON LIKES**
+3.  **TOP 7 HOTELS IN IKEJA BASED ON LIKES**
 
      ![](Top7hotelsinikejabasedonlikes.PNG)
     
     
 
-6.  **TOP 7 HOTELS IN VI BASED ON LIKES**
+4.  **TOP 7 HOTELS IN VI BASED ON LIKES**
 
      ![](Top7hotelsinvibasedonlikes.PNG)
     
     
 
-8.  **TOP 7 MOST EXPENSIVE HOTELS IN IKEJA**
+5.  **TOP 7 MOST EXPENSIVE HOTELS IN IKEJA**
 
      ![](Top7mostexpensvehotelsinikeja.PNG)
     
 
 
-8    **TOP 7 MOST EXPENSIVE HOTELS IN VI**
+6.   **TOP 7 MOST EXPENSIVE HOTELS IN VI**
 
-      ![](Top7mostexpensvehotelsinvi.PNG)
+
+    ![](Top7mostexpensvehotelsinvi.PNG)
 
     
     

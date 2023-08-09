@@ -51,6 +51,12 @@ We want this dashboard to be interactive and can allow customers make a right ch
 
    ![](Top7mostexpensvehotelsinvi.PNG)
 
+
+
+
+
+  **KINDLY CLICK ON THE LINK BELOW TO SEE THE POSTGRESQL QUERIES AND DATA BEEN PROVIDED BY XYZ RESERVATIONS**
+
     
     
 

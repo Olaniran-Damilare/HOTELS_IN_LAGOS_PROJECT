@@ -9,10 +9,49 @@ We want this dashboard to be interactive and can allow customers make a right ch
 
 **SOLUTION**
 
-SELECT DISTINCT Hotel_Name,Likes,Address
-FROM Hotels.hotel
-WHERE Location='Ikeja'
-GROUP BY 1,2,3
-ORDER BY 2
-DESC
-LIMIT'7'
+1.  **TOP 7 HOTELS IN IKEJA BASED ON RATINGS**
+
+    ![](Top7hotelsinikeja.PNG)
+
+
+
+2.  **TOP 7 HOTELS IN VI BASED ON RATINGS**
+   
+    ![](Top7hotelsinvi.PNG)
+    
+    
+
+4.  **TOP 7 HOTELS IN IKEJA BASED ON LIKES**
+
+     ![](Top7hotelsinikejabasedonlikes.PNG)
+    
+    
+
+6.  **TOP 7 HOTELS IN VI BASED ON LIKES**
+
+     ![](Top7hotelsinvibasedonlikes.PNG)
+    
+    
+
+8.  **TOP 7 MOST EXPENSIVE HOTELS IN IKEJA**
+
+     ![](Top7mostexpensvehotelsinikeja.PNG)
+    
+
+
+8    **TOP 7 MOST EXPENSIVE HOTELS IN VI**
+
+      ![](Top7mostexpensvehotelsinvi.PNG)
+
+    
+    
+
+
+
+
+
+
+
+
+
+   

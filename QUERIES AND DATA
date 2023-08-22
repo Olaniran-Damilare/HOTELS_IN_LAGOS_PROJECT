@@ -1,0 +1,165 @@
+**CREATING TABLE**
+
+CREATE TABLE Hotels.hotel (Hotel_name varchar,
+Location varchar,
+Address varchar,
+cost int,
+Property varchar,
+Likes int,
+Rating varchar,
+Review varchar);
+
+**INPUTING DATA TO THE COLUMNS**
+
+COPY Hotels.hotel FROM 
+'C:\Users\USER\Downloads\Hotels In Lagos.csv'
+DELIMITER ',' CSV
+HEADER
+
+  **SHOWING DATA**
+
+SELECT * FROM Hotels.hotel
+
+
+**DATA CLEANING**
+
+DELETE FROM Hotels.hotel
+WHERE Rating='NA'
+
+DELETE FROM Hotels.hotel
+WHERE location='[null]'
+
+
+
+**TOP 7 HOTELS IN IKEJA BASED ON RATINGS**
+SELECT * FROM Hotels.hotel
+WHERE Location='Ikeja'
+ORDER BY Rating
+DESC
+LIMIT'7'
+
+
+
+**TOP 7 HOTELS IN VI BASED ON RATINGS**
+SELECT * FROM Hotels.hotel
+WHERE Location='Victoria Island'
+ORDER BY Rating
+DESC
+LIMIT'7'
+
+
+
+
+**TOP 7 HOTELS IN IKEJA BASED ON LIKES**
+SELECT DISTINCT Hotel_Name,Likes,Address
+FROM Hotels.hotel
+WHERE Location='Ikeja'
+GROUP BY 1,2,3
+ORDER BY 2
+DESC
+LIMIT'7'
+
+
+**TOP 7 HOTELS IN VI BASED ON LIKES**
+SELECT DISTINCT Hotel_Name,Likes,Address
+FROM Hotels.hotel
+WHERE Location='Victoria Island'
+GROUP BY 1,2,3
+ORDER BY 2
+DESC
+LIMIT'7'
+
+
+
+**TOP 7 MOST EXPENSIVE HOTELS IN IKEJA**
+SELECT * FROM Hotels.hotel
+WHERE Location='Ikeja'
+ORDER BY cost
+DESC
+LIMIT'10'
+
+This was limited to 10 because some hotels prices was not stated and we had to work with them based on their ratings, if not we would have dropped them.
+
+
+
+**TOP 7 MOST EXPENSIVE HOTELS IN VI**
+SELECT * FROM Hotels.hotel
+WHERE Location='Victoria Island'
+ORDER BY cost
+DESC
+LIMIT'10'
+
+This was limited to 10 because some hotels prices was not stated and we had to work with them based on their ratings, if not we would have dropped them.
+
+
+
+**TOP 15 PROPERTIES BOTH IN IKEJA AND VI COMBINED**
+SELECT * FROM Hotels.hotel
+WHERE Location='Victoria Island' OR Location='Ikeja'
+ORDER BY Rating
+DESC
+LIMIT'15'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+**TOTAL_NUMBER_OF_HOTELS_IN_IKEJA & VICTORIA ISLAND**
+
+SELECT COUNT (DISTINCT Hotel_name)
+AS TOTAL_NUMBER_OF_HOTELS_IN_VI
+FROM Hotels.hotel
+WHERE Location='Victoria Island'
+
+SELECT COUNT (DISTINCT Hotel_name)
+AS TOTAL_NUMBER_OF_HOTELS_IN_IKEJA
+FROM Hotels.hotel
+WHERE Location='Ikeja'
+
+
+**BREAKDOWN OF HOTELS IN VICTORIA ISLAND**
+SELECT * FROM Hotels.hotel AS DISTINCT_HOTELS_IN_VI
+WHERE Location='Victoria Island'
+ORDER BY Cost
+DESC
+
+**BREAKDOWN OF HOTELS IN IKEJA**
+SELECT * FROM Hotels.hotel AS DISTINCT_HOTELS_IN_IKEJA
+WHERE Location='Ikeja'
+ORDER BY Cost
+DESC
+
+
+**HOTELS IN IKEJA WITH RATINGS ABOVE 7.0**
+
+SELECT * FROM Hotels.hotel 
+WHERE Location='Ikeja'
+AND Rating>'7.0 Very Good'
+ORDER BY cost
+DESC
+
+
+**HOTELS IN VICTORIA ISLAND WITH RATINGS ABOVE 7.0**
+
+SELECT * FROM Hotels.hotel 
+WHERE Location='Victoria Island'
+AND Rating>'7.0 Very Good'
+ORDER BY cost
+DESC
+
+
+
+
+
+

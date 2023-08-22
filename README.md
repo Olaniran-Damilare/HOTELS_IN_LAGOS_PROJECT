@@ -2,7 +2,7 @@
 
 
 
-This data contains data for all hotels in Lagos but our focus is on properties in Victoria Island and ikeja. Kindly assist in determining the TOP 7 hotels based of ratings, cost and likes from the social media survey. Also, determine based on ratings, the top 15 properties both in ikeja and Victoria Island combined. 
+This data contains data for all hotels in Lagos but our focus is on properties in Victoria Island and ikeja. Kindly assist in determining the TOP 7 hotels based on ratings, cost and likes from the social media survey. Also, determine based on ratings, the top 15 properties both in ikeja and Victoria Island combined. 
 We want this dashboard to be interactive and can allow customers make a right choice for their visitations. We would like this dashboard to be visually appealing and simple. 
 
 
@@ -50,6 +50,13 @@ We want this dashboard to be interactive and can allow customers make a right ch
 7.   **TOP 7 MOST EXPENSIVE HOTELS IN VI**
 
    ![](Top7mostexpensvehotelsinvi.PNG)
+   
+
+
+8.   **TOP 15 PROPERTIES BOTH IN IKEJA AND VI COMBINED**
+   
+   
+   ![](Top15besthotelsbasedonratings.PNG)
 
 
 

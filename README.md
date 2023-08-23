@@ -64,10 +64,9 @@ We want this dashboard to be interactive and can allow customers make a right ch
 
   **KINDLY CLICK ON THE LINK BELOW TO SEE THE POSTGRESQL QUERIES AND DATA BEEN PROVIDED BY XYZ RESERVATIONS**
 
-  
-![](https://github.com/Olaniran-Damilare/Hotels-in-lagos/blob/main/Hotels_In_Lagos_Raw_Data.csv)
+[HOTELS IN LAGOS RAW DATA](https://github.com/Olaniran-Damilare/Hotels-in-lagos/blob/main/Hotels_In_Lagos_Raw_Data.csv)
 
-![](https://github.com/Olaniran-Damilare/Hotels-in-lagos/blob/main/POSTGRESQL%20QUERIES)
+[POSTGRESQL QUERIES](https://github.com/Olaniran-Damilare/Hotels-in-lagos/blob/main/POSTGRESQL%20QUERIES)
 
 
 
